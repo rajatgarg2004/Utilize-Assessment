@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import IconPicker from './Iconpicker';
-import { icons } from 'feather-icons';
 
 const Home = ({
   rowsInOnePage,

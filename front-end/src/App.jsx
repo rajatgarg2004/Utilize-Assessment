@@ -1,6 +1,4 @@
-import React, { useState } from 'react';
-import IconPicker from './Component/Iconpicker';
-import { icons } from 'feather-icons';
+import React from 'react';
 import './App.css';
 import Home from './Component/Home';
 const App = () => {
