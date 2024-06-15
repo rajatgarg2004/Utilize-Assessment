@@ -39,8 +39,11 @@ const IconPicker = ({
 
     useEffect(() => {
         renderIcons();
-        console.log(iconArray);
     }, [currentPage]);
+    useEffect(()=>{
+        renderIcons();
+        setCurrentPage(0);
+    },[totalPages])
     return (
         <div className="flex flex-col items-center justify-center p-4 bg-white" style={{ width: pickerWidth, height: pickerHeight }}>
             <div
